@@ -379,10 +379,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 553522347}
   m_HandleRect: {fileID: 324445732}
   m_Direction: 0
-  m_MinValue: -60
-  m_MaxValue: 1
+  m_MinValue: 0
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -1519,6 +1519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77f346242f778d84c9cb16b661403e57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  VolumeText: {fileID: 0}
   am: {fileID: 24100000, guid: d950628e87329a7418a16d64ed78f794, type: 2}
   gm:
     volumeSlide: 0
@@ -1893,13 +1894,9 @@ MonoBehaviour:
   Volumebutton: {fileID: 1091976934}
   slider: {fileID: 307266625}
   am: {fileID: 24100000, guid: d950628e87329a7418a16d64ed78f794, type: 2}
-  curve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
   content: {fileID: 0}
+  content4: {fileID: 0}
+  content6: {fileID: 0}
 --- !u!1 &2082448394
 GameObject:
   m_ObjectHideFlags: 0

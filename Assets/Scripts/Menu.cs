@@ -11,6 +11,7 @@ public class Menu : MonoBehaviour
     [SerializeField] GameObject FailScreen;
     [SerializeField] GameObject VolumeScreen;
     [SerializeField] GameObject Volumebutton;
+
     [SerializeField] Slider slider;
 
     public AudioMixer am;
@@ -85,18 +86,18 @@ public class Menu : MonoBehaviour
         if (victoryPhase1 == true)
         {
             Debug.Log("ll");
-            sinAnimat();
+            cosAnimat();
         }
     }
-    public void sinAnimat()
+    public void cosAnimat()
     {
         var time = +Time.deltaTime;
-        float sin = Mathf.Cos(time);
+        float cos = Mathf.Cos(time);
         var widht = content.transform.localScale.x;
         var height = content.transform.localScale.y;
-        content.GetComponent<RectTransform>().localScale = new Vector3(widht * sin / 1.2f, height * sin / 1.2f, 1);
-        content4.GetComponent<RectTransform>().localScale = new Vector3(widht * sin / 1.2f, height * sin / 1.2f, 1);
-        content6.GetComponent<RectTransform>().localScale = new Vector3(widht * sin / 1.2f, height * sin / 1.2f, 1);
+        content.GetComponent<RectTransform>().localScale = new Vector3(widht * cos / 1.2f, height * cos / 1.2f, 1);
+        content4.GetComponent<RectTransform>().localScale = new Vector3(widht * cos / 1.2f, height * cos / 1.2f, 1);
+        content6.GetComponent<RectTransform>().localScale = new Vector3(widht * cos / 1.2f, height * cos / 1.2f, 1);
 
     }
 }

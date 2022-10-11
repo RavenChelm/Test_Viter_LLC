@@ -1443,10 +1443,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 264438654}
   m_HandleRect: {fileID: 1668780655}
   m_Direction: 0
-  m_MinValue: -60
-  m_MaxValue: -1
+  m_MinValue: 0
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -1923,7 +1923,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3489,6 +3489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77f346242f778d84c9cb16b661403e57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  VolumeText: {fileID: 985033856}
   am: {fileID: 24100000, guid: d950628e87329a7418a16d64ed78f794, type: 2}
   gm:
     volumeSlide: 0
