@@ -1519,7 +1519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77f346242f778d84c9cb16b661403e57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VolumeText: {fileID: 0}
+  VolumeText: {fileID: 1121687965}
   am: {fileID: 24100000, guid: d950628e87329a7418a16d64ed78f794, type: 2}
   gm:
     volumeSlide: 0
